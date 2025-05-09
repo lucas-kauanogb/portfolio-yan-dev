@@ -1,0 +1,43 @@
+Algoritmo_Profissao_Salario
+Var salario, salarioReajustado real
+    profissao caracter
+Início
+Escreva ("Digite a profissão:")
+Leia profissao
+Escreva("Digite o salário:")
+Leia(salario)    
+salarioReajustado <- salario    
+Se (profissao = "Técnico") Entao
+salarioReajustado <- salario * 1.15
+Senao Se (profissao = "Gerente") Entao
+salarioReajustado <- salario * 1.13
+Senao
+salarioReajustado <- salario * 1.11
+Fim_se
+Escreva ("Profissão:", profissao)
+Escreva ("Salário atual: R$", salario)
+Escreva ("Salário reajustado: R$", salarioReajustado)
+Fim
+
+double salario, salarioReajustado;
+string profissao;
+Console.WriteLine("Digite a profissão:");
+profissao = Console.ReadLine();
+Console.WriteLine("Digite o salário:");
+salario = Convert.ToDouble(Console.ReadLine());
+salarioReajustado = salario;
+if (profissao == "Técnico")
+{
+    salarioReajustado = salario * 1.15;
+}
+else if (profissao == "Gerente")
+{
+    salarioReajustado = salario * 1.13;
+}
+else
+{
+    salarioReajustado = salario * 1.11;
+}
+Console.WriteLine("Profissão: " + profissao);
+Console.WriteLine("Salário atual: R$ " + salario);
+Console.WriteLine("Salário reajustado: R$ " + salarioReajustado);

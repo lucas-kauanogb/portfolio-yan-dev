@@ -1,0 +1,9 @@
+Algoritmo_volume_da_esfera
+Var volume, raio real
+Const PI = 3.14
+Início
+Escreva("Informe qual o raio da esfera:")
+leia(raio)
+volume ← (4/3) * pi * (raio³)
+Escreva("O volume da esfera é: ", volume)
+Fim
