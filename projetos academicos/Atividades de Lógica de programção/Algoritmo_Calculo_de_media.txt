@@ -1,0 +1,14 @@
+Algoritmo_Calculo_de_media
+Var nota1, nota2, nota3, nota4, media real
+Início
+Escreva("Informe a primeira nota:")
+leia(nota1)
+Escreva("Informe a segunda nota:")
+leia(nota2)
+Escreva("Informe a terceira nota:")
+leia(nota3)
+Escreva("Informe a quarta nota:")
+leia(nota4)
+media ← (N1 + N2 + N3 + N4) / 4
+Escreva("A média das notas é:", media)
+Fim
