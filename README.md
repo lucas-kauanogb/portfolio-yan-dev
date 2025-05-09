@@ -7,7 +7,6 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 ## 📁 Estrutura do Repositório
 
 - `projetos-academicos/`: Projetos feitos para disciplinas ou desafios do curso.
-- `projetos-pessoais/`: Projetos desenvolvidos de forma autônoma.
 - `documentacao/`: Guias, anotações, esquemas de estudo, entre outros.
 
 ---
