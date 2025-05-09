@@ -16,7 +16,6 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 
 - Git & GitHub
 - C#
-- SQL
 
 ---
 
