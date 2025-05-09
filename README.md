@@ -8,7 +8,7 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 ## 📁 Estrutura do Repositório
 
 - `projetos academicos/`: Projetos feitos para disciplinas ou desafios do curso.
-
+  
 ---
 ## Competências
 
