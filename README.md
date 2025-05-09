@@ -10,6 +10,16 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 - `projetos academicos/`: Projetos feitos para disciplinas ou desafios do curso.
 
 ---
+## Competências
+
+- Inglês Intermediário
+- Pacote Office / Google Docs
+- Pensamento Lógico e Analítico
+- Boa comunicação e trabalho em equipe
+- Capacidade de Resolução de problemas
+- Organização e Responsabilidade
+---
+
 
 ## 🔧 Tecnologias Utilizadas
 
