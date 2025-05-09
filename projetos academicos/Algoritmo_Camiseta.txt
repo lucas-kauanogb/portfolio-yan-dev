@@ -1,0 +1,63 @@
+Algoritmo_Camiseta
+Var codigo caracter
+    preco, desconto, precoComDesconto Real
+    tamanho caracter
+Início
+Escreva("Digite o código da camiseta:")
+Leia(codigo)
+Escreva("Digite o preço da camiseta:")
+Leia(preco)
+Escreva("Digite o tamanho da camiseta (G, M ou P):")
+Leia(tamanho)
+desconto <- 0
+Se(tamanho = "G") Então
+desconto <- preco * 0.10
+Senão Se(tamanho = "M") Então
+desconto <- preco * 0.20
+Senão Se(tamanho = "P") Então
+desconto <- preco * 0.30
+Senão
+Escreva("Tamanho inválido.")
+Fim Se
+Escreva("Código da camiseta:", + codigo)
+Escreva("Tamanho da camiseta:", + tamanho)
+Escreva("Preço sem desconto: R$", + preco)
+Escreva("Preço com desconto: R$", + precoComDesconto)
+Fim
+
+double preco, desconto, precoComDesconto;
+string codigo, tamanho;
+Console.WriteLine("Informe o código da camiseta: ");
+codigo = Console.ReadLine();
+Console.WriteLine("Informe o preço da camiseta:");
+preco = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Informe o tamanho da camiseta: ");
+tamanho = Console.ReadLine();
+
+desconto = 0;
+
+if (tamanho == "G")
+{
+    desconto = preco * 0.10;
+}
+else if(tamanho == "M")
+{
+    desconto = preco * 0.20;
+}
+else if(tamanho == "P")
+{
+    desconto = preco * 0.30;
+}
+else
+{
+    Console.WriteLine("Tamanho inválido.");
+    return;
+}
+
+precoComDesconto = preco - desconto;
+
+Console.WriteLine("Código da camiseta: " + codigo);
+Console.WriteLine("Tamanho da camiseta: " + tamanho);
+Console.WriteLine("Preço sem desconto: R$ " + preco);
+Console.WriteLine("Preço com desconto: R$ " + precoComDesconto);
+    

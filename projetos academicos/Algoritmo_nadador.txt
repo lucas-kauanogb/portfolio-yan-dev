@@ -1,0 +1,58 @@
+Algoritmo_Nadador
+Var idade int
+    categoria caracter
+Início
+Escreva("Digite a idade do nadador")
+Leia(idade)
+Se(idade >= 5) E (idade <= 7) Entao
+categoria <- "Infantil A"
+Senao Se (idade >= 8) E (idade <= 11) Entao
+categoria <- "Infantil B"
+Senao (Se idade >= 12) E (idade <= 13) Entao
+categoria <- "Juvenil A"
+Senao Se (idade >= 14) E (idade <= 17) Entao
+categoria <- "Juvenil B"
+Senao Se (idade > 18) Entao
+categoria <- "Adultos"
+Senao
+Escreva ("Idade inválida para classificação.")
+categoria <- "Nenhuma"
+Fim Se
+Se (categoria <> "Nenhuma") Entao
+Escreva ("A categoria do nadador é:", categoria)
+Fim Se
+Fim
+
+int idade;
+string categoria;
+Console.WriteLine("Digite a idade do nadador:");
+idade = Convert.ToInt32(Console.ReadLine());
+if (idade >= 5 && idade <= 7)
+{
+    categoria = "Infantil A";
+}
+else if (idade >= 8 && idade <= 11)
+{
+    categoria = "Infantil B";
+}
+else if (idade >= 12 && idade <= 13)
+{
+    categoria = "Juvenil A";
+}
+else if (idade >= 14 && idade <= 17)
+{
+    categoria = "Juvenil B";
+}
+else if (idade >= 18)
+{
+    categoria = "Adultos";
+}
+else
+{
+    Console.WriteLine("Idade inválida para classificação.");
+    categoria = "Nenhuma";
+}
+if (categoria != "Nenhuma")
+{
+    Console.WriteLine("A categoria do nadador é: " + categoria);
+}
