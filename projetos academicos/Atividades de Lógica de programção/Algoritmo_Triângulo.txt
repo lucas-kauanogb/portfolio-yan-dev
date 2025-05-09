@@ -1,0 +1,48 @@
+Algoritmo_Triângulo
+Var ladoA, ladoB, ladoC real
+Início
+Escreva("Digite o primeiro lado:")
+Leia(ladoA)
+Escreva("Digite o segundo lado:")
+Leia(ladoB)
+Escreva("Digite o terceiro lado:")
+Leia(ladoC)
+Se (ladoA + ladoB > ladoC) E (ladoA + ladoC > ladoB) E (ladoB + ladoC > ladoA) Entao
+Se (ladoA = ladoB) E (ladoB = ladoC) Entao
+Escreva("Triangulo Equilatero")
+Senao Se (ladoA = ladoB) Ou (ladoA = ladoC) Ou (ladoB = ladoC) Entao
+Escreva("Triangulo Isosceles")
+Senao
+Escreva("Triangulo Escaleno")
+FimSe
+Senao
+Escreva("Os lados fornecidos não formam um triangulo.")
+FimSe
+
+
+double ladoA, ladoB, ladoC;
+Console.WriteLine("Digite o primeiro lado: ");
+ladoA = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o segundo lado: ");
+ladoB = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o terceiro lado: ");
+ladoC = Convert.ToDouble(Console.ReadLine());
+if((ladoA + ladoB > ladoC) && (ladoA + ladoC > ladoB) && (ladoB + ladoC > ladoA))
+{
+    if (ladoA == ladoB && ladoA == ladoC)
+    {
+        Console.WriteLine("Os lados formam um triângulo equilátero.");
+    }
+    else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC)
+    {
+        Console.WriteLine("Os lados formam um triângulo isósceles.");
+    }
+    else
+    {
+        Console.WriteLine("Os lados formam um triângulo escaleno.");
+    }
+}
+else
+{
+    Console.WriteLine("Os lados fornecidos não formam um triângulo.");
+}

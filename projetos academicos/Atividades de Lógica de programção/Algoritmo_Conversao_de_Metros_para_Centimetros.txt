@@ -1,0 +1,8 @@
+Algoritmo_Conversao_de_Metros_para_Centimetros
+Var metros, centimetros real
+Início
+Escreva("Digite o valor em metros: ")
+leia(metros)
+centimetros ← metros * 100
+Escreva(metros, " metros equivalem a ", centimetros, " centímetros.")
+Fim

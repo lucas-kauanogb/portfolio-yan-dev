@@ -1,0 +1,26 @@
+Algoritmo_Quinta_Parte
+Var numero, quintaParte real
+Início
+Escreva("Digite o número: ")
+Leia(numero)
+quintaParte <- numero / 5
+Se (quintaParte < 50 Ou quintaParte > 1000) Entao
+    Escreva("A quinta parte do número é: ", + quintaParte)
+Senao
+    Escreva("A quinta parte do número não atende aos critérios de exibição.")
+Fim_se
+Fim
+
+double numero, quintaParte;
+Console.WriteLine("Digite o número: ");
+numero = Convert.ToDouble(Console.ReadLine());
+quintaParte = numero / 5;
+if(numero < 50 || numero > 1000 )
+{
+    Console.WriteLine("A quinta parte do número é: " + quintaParte);
+}
+else
+{
+    Console.WriteLine("A quinta parte do número não atende aos critérios de exibição.");
+}
+

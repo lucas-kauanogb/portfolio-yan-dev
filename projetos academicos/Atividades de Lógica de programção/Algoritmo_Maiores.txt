@@ -1,0 +1,37 @@
+Algoritmo_Maiores
+Var numero1, numero2, numero3 inteiro
+Início
+Escreva("Digite o primeiro número:")
+Leia(numero1)
+Escreva("Digite o segundo número:")
+Leia(numero2)
+Escreva("Digite o terceiro número:")
+Leia(numero3)
+Se(numero1>numero2 E numero3) Entao
+Escreva("O maior número é:" + numero1)
+Senao Se(numero2>numero1 E numero3) Entao
+Escreva("O maior número é:" + numero2)
+Senao Se(numero3>numero1 E numero2) Entao
+Senao
+Escreva("Os números são iguais.")
+Fim_se
+Fim
+
+int numero1, numero2, numero3;
+int maior;
+Console.WriteLine("Digite o primeiro número:");
+numero1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o segundo número:");
+numero2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o terceiro número:");
+numero3 = Convert.ToInt32(Console.ReadLine());
+maior = numero1;
+if (numero2 > maior)
+{
+    maior = numero2;
+}
+if (numero3 > maior)
+{
+    maior = numero3;
+}
+Console.WriteLine("O maior número é: " + maior);
