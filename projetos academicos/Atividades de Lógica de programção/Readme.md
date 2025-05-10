@@ -27,4 +27,4 @@ Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de 
 
 1. Clone o repositório ou baixe a pasta:
    ```bash
-   git clone https://github.com/seuusuario/nomedorepositorio.git
+   git clone https://github.com/Yan-neri/portfolio-yan-dev.git
