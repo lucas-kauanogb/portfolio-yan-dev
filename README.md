@@ -51,3 +51,6 @@ Sinta-se à vontade para explorar os projetos, sugerir melhorias ou colaborar vi
 
 ## Lucas Palacio comment: 
 Achei interessante a forma que tu fez seu readme.
+
+## Lucas Kauan comment: 
+Tudo bem organizado, projetos interessantes e dá pra ver que tu tá mandando bem no aprendizado. Curti bastante a forma como tu documentou tudo. Segue firme que tá no caminho certo! 🚀.
