@@ -9,8 +9,8 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 
 - `projetos academicos/`: Projetos feitos para disciplinas ou desafios do curso.
 - `Atividades de Lógica de programção/`: Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de Lógica de Programação com a linguagem C#.
-- `Bootcamp -1/`: Este diretório reúne todos os materiais da **primeira entrega do Bootcamp I**, desenvolvida como parte do curso de Engenharia de Software. O objetivo foi reunir informações profissionais, apresentar um projeto pessoal e demonstrar competências fundamentais por meio de diferentes formatos de entrega.
-- `Fundamentos de Engenharia/`: Este repositório contém o trabalho de sistematização apresentado como requisito parcial para a conclusão do curso de **Engenharia de Software** no **Centro Universitário de Brasília (CEUB)**. O estudo utilizou a simulação "Densidade", da plataforma **PHET**, para investigar o comportamento de objetos em meio líquido com base em sua massa, volume e densidade.
+- `Bootcamp -1/`: Esta pasta reúne todos os materiais da **primeira entrega do Bootcamp I**, desenvolvida como parte do curso de Engenharia de Software. O objetivo foi reunir informações profissionais, apresentar um projeto pessoal e demonstrar competências fundamentais por meio de diferentes formatos de entrega.
+- `Fundamentos de Engenharia/`: Esta pasta contém o trabalho de sistematização apresentado como requisito parcial para a conclusão do curso de **Engenharia de Software** no **Centro Universitário de Brasília (CEUB)**. O estudo utilizou a simulação "Densidade", da plataforma **PHET**, para investigar o comportamento de objetos em meio líquido com base em sua massa, volume e densidade.
 ---
 ## Competências
 
