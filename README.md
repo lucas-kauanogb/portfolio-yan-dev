@@ -42,5 +42,5 @@ Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos dura
 
 Sinta-se à vontade para explorar os projetos, sugerir melhorias ou colaborar via pull requests!
 
-## Lucas Palacio
-comment: achei interessante a forma que tu fez seu readme.
+## Lucas Palacio comment: 
+Achei interessante a forma que tu fez seu readme.
